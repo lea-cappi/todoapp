@@ -3,9 +3,11 @@ package com.leacappi.todoapp.mapper;
 import com.leacappi.todoapp.persistence.entity.Task;
 import com.leacappi.todoapp.persistence.entity.TaskStatus;
 import com.leacappi.todoapp.service.dto.TaskInDTO;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
+@Component
 public class TaskInDTOToTask implements IMapper<TaskInDTO, Task>{
 
 
